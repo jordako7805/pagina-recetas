@@ -1,0 +1,16 @@
+{
+  "name": "De la Cesta a tu Mesa",
+  "short_name": "Recetas",
+  "description": "Blog de recetas deliciosas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "img/logo/logo canal.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

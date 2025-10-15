@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog de Cocina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4CAF50">
+</head>
+<body>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
+    <header>
+        <div class="logo">
+            <img src="img/logo/logo canal.png" alt="Logo del Blog">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="airfryer.html">Airfryer</a></li>
+                <li><a href="arroces.html">Arroces</a></li>
+                <li><a href="carnes.html">Carnes</a></li>
+                <li><a href="ensaladas.html">Ensaladas</a></li>
+                <li><a href="fitness.html">Fitness</a></li>
+                <li><a href="olla.html">Olla</a></li>
+                <li><a href="pasta.html">Pasta</a></li>
+                <li><a href="pescado.html">Pescado</a></li>
+                <li><a href="postres.html">Postres</a></li>
+                <li><a href="about.html">Sobre Mí</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Bienvenido a Mi Blog de Cocina</h1>
+            <p>Descubre deliciosas recetas para todos los gustos.</p>
+        </section>
+        <section class="categories">
+            <h2>Categorías</h2>
+            <div class="category-grid">
+                <div class="category">
+                    <img src="img/paginas/airfryer.png" alt="Airfryer">
+                    <h3>Airfryer</h3>
+                    <a href="airfryer.html">Ver Recetas</a>
+                </div>
+                <div class="category">
+                    <img src="img/paginas/arroces.png" alt="Arroces">
+                    <h3>Arroces</h3>
+                    <a href="arroces.html">Ver Recetas</a>
+                </div>
+                <div class="category">
+                    <img src="img/paginas/carnes.png" alt="Carnes">
+                    <h3>Carnes</h3>
+                    <a href="carnes.html">Ver Recetas</a>
+                </div>
+                <div class="category">
+                    <img src="img/paginas/ensaladas.png" alt="Ensaladas">
+                    <h3>Ensaladas</h3>
+                    <a href="ensaladas.html">Ver Recetas</a>
+                </div>
+                <div class="category">
+                    <img src="img/paginas/fitness.png" alt="Fitness">
+                    <h3>Fitness</h3>
+                    <a href="fitness.html">Ver Recetas</a>
+                </div>
+                <div class="category">
+                    <img src="img/paginas/olla.png" alt="Olla">
+                    <h3>Olla</h3>
+                    <a href="olla.html">Ver Recetas</a>
+                </div>
+                <div class="category">
+                    <img src="img/paginas/pasta.png" alt="Pasta">
+                    <h3>Pasta</h3>
+                    <a href="pasta.html">Ver Recetas</a>
+                </div>
+                <div class="category">
+                    <img src="img/paginas/pescado.png" alt="Pescado">
+                    <h3>Pescado</h3>
+                    <a href="pescado.html">Ver Recetas</a>
+                </div>
+                <div class="category">
+                    <img src="img/paginas/postres.png" alt="Postres">
+                    <h3>Postres</h3>
+                    <a href="postres.html">Ver Recetas</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mi Blog de Cocina. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
