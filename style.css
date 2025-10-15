@@ -24,11 +24,11 @@ header {
 
 .logo {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .logo img {
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
 }
 
