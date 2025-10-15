@@ -9,7 +9,7 @@
   "theme_color": "#4CAF50",
   "icons": [
     {
-      "src": "img/logo/logo canal.png",
+      "src": "/pagina-recetas/img/logo/logo canal.png",
       "sizes": "192x192",
       "type": "image/png"
     }
