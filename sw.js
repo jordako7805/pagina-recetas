@@ -1,9 +1,11 @@
 const CACHE_NAME = 'recetas-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/img/logo/logo canal.png',
+  '/pagina-recetas/',
+  '/pagina-recetas/index.html',
+  '/pagina-recetas/style.css',
+  '/pagina-recetas/manifest.json',
+  '/pagina-recetas/sw.js',
+  '/pagina-recetas/img/logo/logo canal.png',
   // Agrega más archivos estáticos si es necesario
 ];
 
