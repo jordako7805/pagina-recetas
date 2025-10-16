@@ -15,6 +15,7 @@
 - [x] Add more detailed styling if needed
 
 ## Pending Tasks
-- [ ] Update social links and contact information in about.html
+- [x] Update social links and contact information in about.html (added app access info)
 - [ ] Test website functionality by opening in browser
 - [ ] Optimize images for web (if necessary)
+- [ ] Generate APK using PWABuilder.com for mobile app
